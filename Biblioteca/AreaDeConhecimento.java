@@ -1,3 +1,5 @@
+package Biblioteca;
+
 public class AreaDeConhecimento {
     
     private String titulo;
