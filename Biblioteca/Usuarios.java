@@ -50,7 +50,7 @@ public class Usuarios{
 
 
     public void setEndereço(Endereco endereço) {
-        this.endereco = endereço;
+        this.endereco = endereco;
     }
 
     
