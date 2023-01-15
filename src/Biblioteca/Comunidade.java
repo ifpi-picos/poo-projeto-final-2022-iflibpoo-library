@@ -1,4 +1,4 @@
-public class Comunidade extends Usuario implements UsuarioPadrao {
+public class Comunidade extends Usuario implements UsuarioPadrao{
     
     private String Endereco;
     private String Nascimento;
