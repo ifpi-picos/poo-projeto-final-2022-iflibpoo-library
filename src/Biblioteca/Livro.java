@@ -1,4 +1,3 @@
-package Biblioteca;
 public class Livro implements LivroPadrao {
 
     private int ID;

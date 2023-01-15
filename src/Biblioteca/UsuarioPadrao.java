@@ -1,6 +1,3 @@
-package biblioteca;
-
-
 public interface UsuarioPadrao {
     void setNome(String Nome);
     String getNome();

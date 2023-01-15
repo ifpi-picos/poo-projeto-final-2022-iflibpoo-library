@@ -1,5 +1,3 @@
-package Biblioteca;
-
 public class Emprestimo {
     
     private String DataEmprestimo;

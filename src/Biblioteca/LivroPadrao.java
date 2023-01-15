@@ -1,5 +1,3 @@
-package biblioteca;
-
 public interface LivroPadrao {
     
     public void setID(int ID);

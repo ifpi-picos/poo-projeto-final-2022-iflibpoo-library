@@ -1,5 +1,3 @@
-package biblioteca;
-
 public class Usuario implements UsuarioPadrao {
     
     private int MaxLivros;
