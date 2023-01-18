@@ -163,9 +163,7 @@ public class Main {
     }
     
     public void menuPrincipal() throws IOException{
-        String[] resposta = new String[]{" Cadastrar Usuario", "Cadastrar Livro",
-                 "Emprestimo\n", "Devolucao\n", " Suspensão",
-                 "Listar",  "Data",  "Sair"};
+        String[] resposta = new String[]{" Cadastrar Usuario", "Cadastrar Livro", "Emprestimo", "Devolucao", " Suspensão", "Listar",  "Data",  "Sair"};
         int opcao = JOptionPane.showOptionDialog(null,"CADASTRO","BIBLIOTECA"
                 ,JOptionPane.YES_NO_OPTION,JOptionPane.INFORMATION_MESSAGE,null,resposta,1);
         switch( opcao ){
@@ -231,7 +229,7 @@ main.menuCadastroLivro(); break;
                 break;
             } 
             // Comunidade
-            case 3: {
+            case 2: {
                 String Endereco = JOptionPane.showInputDialog(null, "INFORME O ENDEREÇO:");
                 String Nascimento = JOptionPane.showInputDialog(null, "INFORME A DATA DE NASCIMENTO:");
                 String Telefone   = JOptionPane.showInputDialog(null, "INFORME O TELEFONE");
@@ -456,8 +454,8 @@ main.menuCadastroLivro(); break;
     }
 
     private void menuSuspensao() throws IOException {
-        System.out.print("RG do Usuário: ");
-        String RG = scanner.nextLine();
+      
+        String RG = JOptionPane.showInputDialog(null, "INFORME O RG:");
         
         List<UsuarioPadrao> usuario =
                 Usuarios
