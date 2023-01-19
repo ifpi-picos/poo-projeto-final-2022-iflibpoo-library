@@ -200,7 +200,7 @@ main.menuCadastroLivro(); break;
         switch (opcao){
             // Professor
             case 0: {
-                String NumeroUSP = JOptionPane.showInputDialog(null, "NÚMERO USP");
+                String NumeroUSP = JOptionPane.showInputDialog(null, "NÚMERO DO USUARIO");
                 String Departamento =JOptionPane.showInputDialog(null, "DEPARTAMENTO:");
                 Professor Usuario = new Professor();
                 Usuario.setDepartamento(Departamento);
@@ -214,7 +214,7 @@ main.menuCadastroLivro(); break;
             }
             // ALUNO
             case 1: {
-                String NumeroUSP = JOptionPane.showInputDialog(null, "INFORME O NÚMERO USP:");
+                String NumeroUSP = JOptionPane.showInputDialog(null, "INFORME O NÚMERO DO USUÁRIO:");
                 String Curso = JOptionPane.showInputDialog(null, "INFORME O CURSO:");
                 String AnoDeIngresso = JOptionPane.showInputDialog(null, "INFORME O ANO DO INGRESSO:");
                 Aluno Usuario = new Aluno();
